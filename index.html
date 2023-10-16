@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+     <title>Home page </title> 
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="#">Aashi verma</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="https://vermaaashi123.github.io/about-me/">About</a></li>
+        <li><a href="https://vermaaashi123.github.io/contact-page/">Contact</a></li>
+        <li><a href="https://vermaaashi123.github.io/portfolio-page/">Portfolio</a></li>
+        
+           </ul>
+    </div>
+  </nav>
+  <section class="home"></section>
+  <div class="text">
+    <p><h2>About Aashi verma</h2>
+    <p>Aashi verma, a fresher of BCA, is excited to embark on an HTML project. With a solid educational background, Aashi is well-prepared to delve into the world of web development. Eager to apply their knowledge in a practical setting, Aashi is ready to create a captivating web page using HTML. Armed with a deep understanding of HTML tags, attributes, and the structure of a webpage, Aashi is poised to design a project that reflects their creativity and coding skills. From building the fundamental structure of the webpage with headers, paragraphs, and lists to incorporating images and hyperlinks, Aashi is enthusiastic about transforming their academic achievements into a real-world application. This HTML project is just the beginning of Aashi's journey into the exciting world of web development.</p>
+    <br><p>Aashi Verma, a first-year BCA student, is eager to embark on a web designing project. With a fresh perspective and a passion for technology, Aashi is well-prepared to dive into the world of web design. Equipped with the foundational knowledge gained during the initial year of their Bachelor's in Computer Applications program, Aashi is ready to put their skills to the test and create a visually appealing and functional website. Aashi understands the importance of user experience, responsive design, and the use of various web development tools and languages. This web designing project is an exciting opportunity for Aashi to blend their academic learning with practical application, setting the stage for a promising career in the dynamic field of web design.</p>
+  </div>
+  <script>
+    let nav = document.querySelector("nav");
+      window.onscroll = function() {
+        if(document.documentElement.scrollTop > 20){
+          nav.classList.add("sticky");
+        }else {
+          nav.classList.remove("sticky");
+        }
+      }
+    </script>
+    
+
+		<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="#">Home</a>
+
+					
+
+					<a href="https://vermaaashi123.github.io/portfolio-page/">Portfolio</a>
+
+					<a href="https://vermaaashi123.github.io/about-me/">About</a>
+
+					
+					<a href="https://vermaaashi123.github.io/contact-page/">Contact</a>
+				</p>
+
+				<p>Aashi verma &copy; 2005</p>
+			</div>
+
+		</footer>
+  
+
+</body>
+</html>
